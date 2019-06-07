@@ -1,0 +1,35 @@
+ion-header>
+  <ion-navbar color="secondary">
+    <ion-title>
+      {{title}}
+    </ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content>
+  <ion-card>
+    <ion-card-content>
+      {{description}}
+    </ion-card-content>
+  </ion-card>
+  <ion-card>
+    <ion-card-content>
+      {{key}}
+    </ion-card-content>
+  </ion-card>
+  <ion-card>
+    <ion-card-content>
+      {{lat}}
+    </ion-card-content>
+  </ion-card>
+  <ion-card>
+    <ion-card-content>
+      {{lon}}
+    </ion-card-content>
+  </ion-card>
+  <ion-card>
+    <ion-card-content>
+    <img [src]="imgData"/>
+    </ion-card-content>
+    </ion-card>
+</ion-content>
